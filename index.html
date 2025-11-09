@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anjali Verma | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="logo">AV</div>
+    <nav class="nav">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+ <!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-text">
+    <h1>Hello, I'm <span class="typing" id="typed-name"></span></h1>
+    <p class="typing" id="typed-tagline"></p>
+    <div class="buttons">
+      <a href="#contact" class="btn primary">Hire Me</a>
+      <a href="resume.pdf" download class="btn">Download CV</a>
+    </div>
+  </div>
+  <!-- Removed hero orb -->
+</section>
+
+<!-- About -->
+<section id="about" class="section reveal about-section">
+  <h2>About Me</h2>
+  <div class="about-container">
+    <!-- Left side: profile orb -->
+    <div class="about-left">
+      <div class="about-orb">
+        <img src="images/profile.jpeg" alt="Anjali Verma" class="orb-img" />
+      </div>
+    </div>
+
+    <!-- Right side: text + highlights -->
+    <div class="about-right">
+      <div class="about-text">
+        <p class="about-anim">I'm <strong>Anjali Verma</strong> — an Electrical Engineering student passionate about frontend development, UI/UX, and interactive web experiences.</p>
+        <p class="about-anim delay1">I love transforming ideas into visually appealing and user-friendly websites that blend creativity with clean code.</p>
+        <p class="about-anim delay2">My goal is to craft web solutions that are not just functional but memorable for users. I thrive in collaborative environments and enjoy creative challenges.</p>
+      </div>
+
+      <div class="about-highlights">
+        <h3>Key Strengths</h3>
+        <div class="highlight-badges">
+          <span class="badge">Responsive Design</span>
+          <span class="badge">Programming Skills</span>
+          <span class="badge">UI/UX Design</span>
+          <span class="badge">Creative & Detail-Oriented</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- Skills -->
+ <section id="skills" class="section reveal">
+  <h2>My Skills</h2>
+
+  <div class="skills-wrapper">
+    <!-- Left: Circular Skills -->
+    <div class="circular-skills">
+      <div class="circular" data-percent="90">
+        <div class="inner"></div>
+        <div class="outer"></div>
+        <div class="numb">0%</div>
+        <div class="label">Frontend</div>
+      </div>
+
+      <div class="circular" data-percent="85">
+        <div class="inner"></div>
+        <div class="outer"></div>
+        <div class="numb">0%</div>
+        <div class="label">UI / UX</div>
+      </div>
+
+      <div class="circular" data-percent="80">
+        <div class="inner"></div>
+        <div class="outer"></div>
+        <div class="numb">0%</div>
+        <div class="label">Programming</div>
+      </div>
+
+      <div class="circular" data-percent="75">
+        <div class="inner"></div>
+        <div class="outer"></div>
+        <div class="numb">0%</div>
+        <div class="label">Design</div>
+      </div>
+    </div>
+
+    <!-- Right: Tech Stack -->
+    <div class="tech-stack-card">
+      <h3>Tech Stack</h3>
+      <div class="tech-grid">
+        <div class="tech-card"><img src="images/html.svg" alt="HTML" /><p>HTML</p></div>
+        <div class="tech-card"><img src="images/js.svg" alt="JavaScript" /><p>JavaScript</p></div>
+        <div class="tech-card"><img src="images/react.svg" alt="React" /><p>React</p></div>
+        <div class="tech-card"><img src="images/cpp.svg" alt="C++" /><p>C++</p></div>
+        <div class="tech-card"><img src="images/mysql.png" alt="MySQL" /><p>MySQL</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Projects -->
+  <section id="projects" class="section reveal">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <img src="images/project1.jpg" alt="News App" />
+        <h3>News App</h3>
+        <p>A responsive web app fetching real-time news headlines using APIs.</p>
+      </div>
+      <div class="project-card">
+        <img src="images/project2.jpg" alt="My Blog Site" />
+        <h3>My Blog Site</h3>
+        <p>A React-based blog platform for exploring tech, travel, and lifestyle articles.</p>
+      </div>
+      <div class="project-card">
+        <img src="images/project3.jpg" alt="E-Learning Platform" />
+        <h3>E-Learning Platform</h3>
+        <p>An interactive React-based education website with video lessons and progress tracking.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section reveal">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn primary">Send Message</button>
+    </form>
+
+    <div class="contact-icons">
+      <a href="mailto:anjali0708verma@gmail.com" target="_blank"><img src="images/gmail.svg" alt="Email" /></a>
+      <a href="https://www.linkedin.com/in/anjali-verma-8937b7258" target="_blank"><img src="images/linkedin.svg" alt="LinkedIn" /></a>
+      <a href="https://github.com/anjali0721" target="_blank"><img src="images/github.svg" alt="GitHub" /></a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    © 2025 Anjali Verma — All rights reserved.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
